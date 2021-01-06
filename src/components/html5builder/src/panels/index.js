@@ -19,7 +19,7 @@
 import defaults from './config/config';
 import Panel from './model/Panel';
 import Panels from './model/Panels';
-import PanelView from './view/PanelView';
+// import PanelView from './view/PanelView';
 import PanelsView from './view/PanelsView';
 
 export default () => {
