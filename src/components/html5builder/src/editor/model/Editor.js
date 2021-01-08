@@ -25,7 +25,7 @@ const deps = [
   // require('asset_manager'),
   // require('trait_manager'),
   // require('navigator'),
-  // require('commands'),
+  require('commands'),
   // require('block_manager')
   require("i18n"),
   require("device_manager"),
