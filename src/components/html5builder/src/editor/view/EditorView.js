@@ -30,7 +30,7 @@ export default Backbone.View.extend({
     if (conf.width) contEl.css('width', conf.width);
     if (conf.height) contEl.css('height', conf.height);
 
-    //$el.append(this.cv.render());
+    $el.append(this.cv.render());
     $el.append(this.pn.render());
     $el.attr('class', `${pfx}editor ${pfx}one-bg ${pfx}two-color`);
     contEl

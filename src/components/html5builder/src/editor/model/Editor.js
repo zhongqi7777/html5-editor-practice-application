@@ -16,9 +16,9 @@ Backbone.$ = $;
 const deps = [
   // require('utils'),
   // require('keymaps'),
-  // require('undo_manager'),
+  require('undo_manager'),
   // require('storage_manager'),
-  // require('style_manager'),
+  require('style_manager'),
   // require('modal_dialog'),
   // require('code_manager'),
   // require('rich_text_editor'),
