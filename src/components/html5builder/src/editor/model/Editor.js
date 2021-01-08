@@ -14,19 +14,19 @@ import { getModel } from "utils/mixins";
 
 Backbone.$ = $;
 const deps = [
-  // require('utils'),
+  require('utils'),
   // require('keymaps'),
   require('undo_manager'),
-  // require('storage_manager'),
+  require('storage_manager'),
   require('style_manager'),
   // require('modal_dialog'),
-  // require('code_manager'),
+  require('code_manager'),
   // require('rich_text_editor'),
   // require('asset_manager'),
   // require('trait_manager'),
   // require('navigator'),
   require('commands'),
-  // require('block_manager')
+  require('block_manager'),
   require("i18n"),
   require("device_manager"),
   require("parser"),
